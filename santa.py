@@ -80,7 +80,7 @@ name_list['Email address'] = name_list.apply(
                                             '@lip6.fr', axis=1)
 
 
-random.seed(0)  # Comment to generate true random
+#random.seed(0)  # Comment to generate true random
 der = random_derangement(len(name_list)) # Generate random derangement
 write_digraph("directed_graph.dot", create_digraph(der))
 
@@ -96,7 +96,7 @@ en_mail_subject = '[Secret Santa] You must give a present to...'
 fr_mail = load_mail_template('fr')
 en_mail = load_mail_template('en')
 
-print(name_list)
+#print(name_list)
 
 
 # User information to connect to smtp server
