@@ -107,8 +107,8 @@ server = connect_smtp_server(user_email, user_password) # Server connection
 
 # Send customized email to every participants
 for index, row in name_list.iterrows():
-    if row['First name'] != 'Marvin': # Comment to send to everybody
-        continue
+    #if row['First name'] != 'Marvin': # Comment to send to everybody
+        #continue
     msg = MIMEMultipart() # create a message
     
     # setup the parameters of the message
@@ -127,7 +127,7 @@ for index, row in name_list.iterrows():
     msg.attach(MIMEText(custom_mail, 'plain'))
         
     # send the message via the server set up earlier.
-    #server.send_message(msg)
+    server.send_message(msg)
 
     del msg
 
