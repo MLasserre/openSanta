@@ -1,0 +1,6 @@
+Bonjour ${SANTA_NAME},
+Si tu reçois ce mail c'est que tu t'es inscrit au "Secret Santa" du LIP6.
+Le tirage a été fait et tu dois faire un cadeau à ${RECIPIENT_NAME}.
+Pour rappel, le montant maximal a été fixé à 10€ mais il n'y a pas de limite minimale.
+Bonne journée,
+Marvin

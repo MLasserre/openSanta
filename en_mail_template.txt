@@ -1,0 +1,6 @@
+Hello ${SANTA_NAME},
+If you receive this email it's because you registered for the LIP6 Secret Santa.
+The draw have been made and you have to make a gift to ${RECIPIENT_NAME}.
+As a reminder, the maximum amount has been set to €10 but there is no minimum limit.
+Have a nice day,
+Marvin
